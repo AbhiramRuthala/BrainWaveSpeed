@@ -1,4 +1,6 @@
-#A simple way to understand EEG data. Input your frequency and wavelength in terms of set numbers. You might have to do conversion factors b
+#A simple way to understand EEG data. Input your frequency and wavelength in terms of set numbers. You might have to convert them to meet the unit specifics. 
+#I'll update this with a feature to do conversions if your brain wave data doesn't meet the unit specifics. 
+#The reason we need those units is so that the answer is in meters/second.
 frequencyinput = float(input("Write your frequency levels (The number of waves occuring in a duration of time) in 1/s: "))
 wavelengthinput = float(input("Write your wavelength (distance between peak to peak of the wave) in meters: "))
 
